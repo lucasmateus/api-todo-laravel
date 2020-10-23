@@ -4,7 +4,7 @@ Passo a passo para configuração da api REST Laravel:
 
 - Git clone
 ```sh
-$ git clone <link do repositorio>
+$ git clone https://github.com/lucasmateus/api-todo-laravel.git
 ```
 - Entrar no diretorio clonado
 ```sh
