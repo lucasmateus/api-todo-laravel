@@ -1,3 +1,16 @@
+## Itens que foram feitos na aplicação
+A. Criar uma aplicação web PHP com Framework Laravel
+
+B. Persistir os dados em um banco de dados Postgres SQL
+
+C. Utilizar Eloquent ORM
+
+D. Utilizar Bootstrap 4
+
+G. Criar SPA com VueJS
+
+H. Publicar projeto no Heroku
+
 ## Configurações local
 
 Passo a passo para configuração da api REST Laravel:
@@ -10,13 +23,13 @@ $ git clone https://github.com/lucasmateus/api-todo-laravel.git
 ```sh
 $ cd api-todo-laravel
 ```
-- instalação do composer
+- Instalação dos arquivos laravel
 ```sh
 $ composer install
 ```
-- criar um database postgres
+- Criar um database postgres
 
-- copiar o arquivo .env.example e depois renomear para .env
+- Copiar o arquivo .env.example e depois renomear para .env
 
 - Configurações do database postgres para o arquivo .env:
 
@@ -32,7 +45,7 @@ DB_PASSWORD=senha (trocar o nome "senha" para a senha do seu usuario postgres)
 ```sh
 $ php artisan key:generate
 ```
-- criar as tables do database (migration)
+- Criar as tables do database (migration)
 ```sh
 $ php artisan migrate
 ```
